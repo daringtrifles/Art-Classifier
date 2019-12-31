@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.dropbox.com/s/vznmhfiulf4z1ic/export.pkl?raw=1'
-export_file_name = 'export (1).pkl'
+export_file_name = 'export.pkl'
 classes = ['Pop Art','Renaissance Art','Chinese Art','Impressionism','Cubism']
 path = Path(__file__).parent
 app = Starlette()
