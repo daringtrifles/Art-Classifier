@@ -1,3 +1,6 @@
+ *{
+    font-style: 'Times'
+  }
 body {
     background-color: #fff;
 }
@@ -44,9 +47,9 @@ button.choose-file-button {
     height: 40px;
     border-radius: 2px;
     background-color: #ffffff;
-    border: solid 1px #7052CB;
+    border: solid 1px #00ff00;
     font-size: 13px;
-    color: #7052CB;
+    color: #00ff00;
 }
 
 button.analyze-button {
